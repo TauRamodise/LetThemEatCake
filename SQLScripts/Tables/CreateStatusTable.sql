@@ -6,9 +6,22 @@ CREATE TABLE [dbo].[Status](
 	[StatusName] [varchar](50) NOT NULL,
 );
 
---ALTER TABLE dbo.Status
---ADD CONSTRAINT [PK_Status] PRIMARY KEY CLUSTERED ([StatusID] ASC);
+INSERT INTO [dbo].[Status] (
+	[StatusName]
+)
+VALUES ('Processing request'),
+	('Preparing Order'),
+	('Order ready'),
+	('Shipped'),
+	('Pick up ready'),
+	('Picked up'),
+	('Delivered'),
+	('Unable to deliver'),
+	('Cancelled order');
+GO
+
+--SELECT * FROM dbo.Status;
 --GO
 
-DROP TABLE dbo.Status;
-GO
+--DROP TABLE dbo.Status;
+--GO
