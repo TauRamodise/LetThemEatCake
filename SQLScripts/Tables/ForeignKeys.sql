@@ -15,4 +15,3 @@ ALTER TABLE [dbo].[Delivery] ADD CONSTRAINT [fk_Delivery_OrderID] FOREIGN KEY([O
 ALTER TABLE [dbo].[Delivery] ADD CONSTRAINT [fk_Delivery_DeliveryLocationID] FOREIGN KEY([DeliveryLocationID]) REFERENCES [dbo].[Customer] ([DeliveryLocationID]);
 ALTER TABLE [dbo].[Delivery] ADD CONSTRAINT [fk_Delivery_StatusID] FOREIGN KEY([StatusID]) REFERENCES [dbo].[Status] ([StatusID]);
 GO
-
