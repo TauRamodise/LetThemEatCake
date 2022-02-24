@@ -1,4 +1,4 @@
-:setvar path "C:\Users\narom001\Documents\BBD GRAD\Level Ups\Databases\LetThemEatCake\SQLScripts" -- change to your own path
+:setvar path "C:\Users\bbdnet2573\Documents\Grad\Let Them Eat Cake\src\SQLScripts" -- change to your own path
 :r $(path)\CreateDatabase.sql
 :r $(path)\Tables\CreateCustomerTable.sql
 :r $(path)\Tables\CreateLocationTable.sql
