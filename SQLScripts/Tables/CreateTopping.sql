@@ -7,4 +7,5 @@ CREATE TABLE [dbo].[Topping](
     [ToppingPrice] [smallmoney] NOT NULL,
     CONSTRAINT PK_Topping PRIMARY KEY (ToppingID)
 );
+
 GO
