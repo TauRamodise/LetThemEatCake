@@ -11,7 +11,7 @@
 :r $(path)\Tables\CreateIcing.sql
 :r $(path)\Tables\CreateTopping.sql
 :r $(path)\Tables\CreateShape.sql
--- :r $(path)\AddConstraints.sql
+:r $(path)\Tables\ForeignKeys.sql
 -- :r $(path)\Data\AddDummyData.sql
 -- :r $(path)\Stored Procedures\ToBeAdded.sql
 -- :r $(path)\Views\ToBeAdded.sql
