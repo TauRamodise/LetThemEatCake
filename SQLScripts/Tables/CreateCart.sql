@@ -11,10 +11,6 @@ CREATE TABLE [dbo].[Cart]
 );
 GO
 ALTER TABLE [dbo].[Cart] ADD CONSTRAINT [pk_Cart_OrderID] PRIMARY KEY CLUSTERED ([OrderID],[CakeID]);
-ALTER TABLE [dbo].[Cart] ADD CONSTRAINT [fk_Cart_OrderID] FOREIGN KEY([OrderID]) REFERENCES [dbo].[Order] ([OrderID]);
-ALTER TABLE [dbo].[Cart] ADD CONSTRAINT [fk_Cart_CakeID]  FOREIGN KEY([CakeID])  REFERENCES [dbo].[Cake] ([CakeID]);
-GO
-
 GO
 INSERT INTO [dbo].[Cart] (
     [OrderID],[CakeID],[Quantity],[ItemPrice]

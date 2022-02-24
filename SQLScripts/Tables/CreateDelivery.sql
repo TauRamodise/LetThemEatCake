@@ -11,12 +11,7 @@ CREATE TABLE [dbo].[Delivery]
 -- DeliveryDate [DATE] NULL
 );
 GO
-ALTER TABLE [dbo].[Delivery] ADD CONSTRAINT [pk_Delivery_OrderID]            PRIMARY KEY CLUSTERED ([OrderID]);
-ALTER TABLE [dbo].[Delivery] ADD CONSTRAINT [fk_Delivery_OrderID]            FOREIGN KEY([OrderID])            REFERENCES [dbo].[Order] ([OrderID]);
-ALTER TABLE [dbo].[Delivery] ADD CONSTRAINT [fk_Delivery_DeliveryLocationID] FOREIGN KEY([DeliveryLocationID]) REFERENCES [dbo].[Customer] ([DeliveryLocationID]);
-ALTER TABLE [dbo].[Delivery] ADD CONSTRAINT [fk_Delivery_StatusID]           FOREIGN KEY([StatusID])           REFERENCES [dbo].[Status] ([StatusID]);
-GO
-
+ALTER TABLE [dbo].[Delivery] ADD CONSTRAINT [pk_Delivery_OrderID] PRIMARY KEY CLUSTERED ([OrderID]);
 GO
 INSERT INTO [dbo].[Delivery] (
     [DeliveryLocationID],[StatusID],[DeliveryNote]
