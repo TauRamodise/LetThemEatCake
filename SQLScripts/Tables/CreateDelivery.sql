@@ -1,4 +1,4 @@
--- Create a new table called 'Delivery' in schema 'LTECdb'
+-- Create a new table called 'Delivery' in schema 'LetThemEatCakeDB'
 USE [LetThemEatCakeDB]
 GO
 -- Create the table

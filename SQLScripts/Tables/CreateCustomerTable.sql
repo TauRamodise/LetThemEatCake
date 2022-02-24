@@ -14,4 +14,4 @@ CREATE TABLE [dbo].[Customer]
 GO
 
 ALTER TABLE [dbo].[Customer] ADD CONSTRAINT [PK_CustomerID] PRIMARY KEY CLUSTERED ([CustomerID] ASC);
-
+GO

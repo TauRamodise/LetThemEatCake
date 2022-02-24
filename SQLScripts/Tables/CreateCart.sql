@@ -1,4 +1,4 @@
--- Create a new table called 'Cart' in schema 'LTECdb'
+-- Create a new table called 'Cart' in schema 'LetThemEatCakeDB'
 USE [LetThemEatCakeDB]
 GO
 -- Create the table
@@ -11,5 +11,4 @@ CREATE TABLE [dbo].[Cart]
 );
 GO
 ALTER TABLE [dbo].[Cart] ADD CONSTRAINT [pk_Cart_OrderID] PRIMARY KEY CLUSTERED ([OrderID],[CakeID]);
-
 GO

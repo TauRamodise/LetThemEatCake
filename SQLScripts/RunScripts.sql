@@ -1,5 +1,4 @@
 :setvar path "C:\Users\bbdnet2573\Documents\Grad\Let Them Eat Cake\src\SQLScripts" -- change to your own path
-:r $(path)\CreateDatabase.sql
 :r $(path)\Tables\CreateCustomerTable.sql
 :r $(path)\Tables\CreateLocationTable.sql
 :r $(path)\Tables\CreateOrder.sql
