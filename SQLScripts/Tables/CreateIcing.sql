@@ -16,5 +16,4 @@ CREATE TABLE [dbo].[Icing] (
     [IcingPrice] [smallMoney] NOT NULL,
     CONSTRAINT PK_Icing PRIMARY KEY (IcingID)
 )
-
 GO
