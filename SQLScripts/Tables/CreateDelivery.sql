@@ -1,5 +1,5 @@
 -- Create a new table called 'Delivery' in schema 'LTECdb'
-USE [LTECdb]
+USE [LetThemEatCakeDB]
 GO
 -- Create the table
 CREATE TABLE [dbo].[Delivery]
