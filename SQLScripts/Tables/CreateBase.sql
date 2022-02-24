@@ -14,5 +14,8 @@ CREATE TABLE [dbo].[Base] (
     [BasePrice] [smallMoney] NOT NULL,
     CONSTRAINT PK_Base PRIMARY KEY (BaseID)
 )
+<<<<<<< HEAD
 
+=======
+>>>>>>> 2b524ae831f0736b4ef8edd949fc0bbc011cf13a
 GO
