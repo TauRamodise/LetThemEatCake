@@ -1,4 +1,4 @@
--- Create a new table called 'Delivery' in schema 'LTECdb'
+-- Create a new table called 'Delivery' in schema 'LetThemEatCakeDB'
 USE [LetThemEatCakeDB]
 GO
 -- Create the table
@@ -12,11 +12,4 @@ CREATE TABLE [dbo].[Delivery]
 );
 GO
 ALTER TABLE [dbo].[Delivery] ADD CONSTRAINT [pk_Delivery_OrderID] PRIMARY KEY CLUSTERED ([OrderID]);
-GO
-INSERT INTO [dbo].[Delivery] (
-    [DeliveryLocationID],[StatusID],[DeliveryNote]
-)
-VALUES (1, 7, ''),
-	(2, 7, 'Nice old lady'),
-	(3, 7, '')
 GO

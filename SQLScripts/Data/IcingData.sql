@@ -18,3 +18,4 @@ VALUES ('American ButterCream', 'A combination butter, confectioners sugar, crea
        ('Caramel Icing', 'A vanilla, caramel, and sea salt creamy icing.', 100),
        ('Fluffy White Frosting', ' A thick and creamy frosting that has a very light vanilla taste.',50),
        ('Creamy Fudge Frosting', 'A thick and creamy frosting that has a very light caramel fudge taste',50);
+GO

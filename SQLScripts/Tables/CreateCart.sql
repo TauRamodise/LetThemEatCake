@@ -1,4 +1,4 @@
--- Create a new table called 'Cart' in schema 'LTECdb'
+-- Create a new table called 'Cart' in schema 'LetThemEatCakeDB'
 USE [LetThemEatCakeDB]
 GO
 -- Create the table

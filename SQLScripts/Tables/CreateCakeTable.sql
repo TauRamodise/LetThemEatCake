@@ -10,4 +10,4 @@ CREATE TABLE [dbo].[Cake](
 	[ToppingID] [int] NOT NULL,
 	[ShapeID] [int] NOT NULL
 );
-
+GO
