@@ -6,29 +6,6 @@ CREATE TABLE [dbo].[Status](
 	[StatusName] [varchar](50) NOT NULL,
 );
 
-INSERT INTO [dbo].[Status] (
-	[StatusName]
-)
-VALUES ('Processing request'),
-	('Preparing Order'),
-	('Order ready'),
-	('Delivering'),
-	('Pick up ready'),
-	('Picked up'),
-	('Delivered'),
-	('Unable to deliver'),
-	('Cancelled order');
-GO
-
-INSERT INTO [dbo].[Status] (
-	[StatusName]
-)
-VALUES ('Processing'),
-	('Picked up'),
-	('Delivered'),
-	('Cancelled');
-GO
-
 --SELECT * FROM dbo.Status;
 --GO
 

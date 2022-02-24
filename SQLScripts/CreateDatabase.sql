@@ -7,7 +7,6 @@ BEGIN
 END;
 GO
 
-
 CREATE DATABASE LetThemEatCakeDB
 COLLATE Latin1_General_CI_AS;        -- see https://docs.microsoft.com/en-us/sql/relational-databases/collations/collation-and-unicode-support?view=sql-server-ver15#Server-level-collations
 GO
@@ -15,3 +14,4 @@ GO
 
 USE LetThemEatCakeDB;
 GO
+
