@@ -10,9 +10,9 @@ CREATE TABLE [dbo].[Cart]
     ItemPrice [SMALLMONEY] NULL 
 );
 GO
-ALTER TABLE [dbo].[Cart] WITH ADD CONSTRAINT [pk_Cart_OrderID] PRIMARY KEY CLUSTERED ([OrderID],[CakeID]);
-ALTER TABLE [dbo].[Cart] WITH ADD CONSTRAINT [fk_Cart_OrderID] FOREIGN KEY([OrderID]) REFERENCES [dbo].[Order] ([OrderID]);
-ALTER TABLE [dbo].[Cart] WITH ADD CONSTRAINT [fk_Cart_CakeID]  FOREIGN KEY([CakeID])  REFERENCES [dbo].[Cake] ([CakeID]);
+ALTER TABLE [dbo].[Cart] ADD CONSTRAINT [pk_Cart_OrderID] PRIMARY KEY CLUSTERED ([OrderID],[CakeID]);
+ALTER TABLE [dbo].[Cart] ADD CONSTRAINT [fk_Cart_OrderID] FOREIGN KEY([OrderID]) REFERENCES [dbo].[Order] ([OrderID]);
+ALTER TABLE [dbo].[Cart] ADD CONSTRAINT [fk_Cart_CakeID]  FOREIGN KEY([CakeID])  REFERENCES [dbo].[Cake] ([CakeID]);
 GO
 
 GO

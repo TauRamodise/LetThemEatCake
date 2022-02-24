@@ -12,9 +12,9 @@ CREATE TABLE [dbo].[Order]
 );
 
 GO
-ALTER TABLE [dbo].[Order] WITH CONSTRAINT [pk_Order_OrderID]    PRIMARY KEY CLUSTERED (OrderID);
-ALTER TABLE [dbo].[Order] WITH CONSTRAINT [fk_Order_CustomerID] FOREIGN KEY([CustomerID]) REFERENCES [dbo].[Customer] ([CustomerID]);
-ALTER TABLE [dbo].[Order] WITH CONSTRAINT [fk_Order_StatusID]   FOREIGN KEY([StatusID])   REFERENCES [dbo].[Status] ([StatusID]);
+ALTER TABLE [dbo].[Order] ADD CONSTRAINT [pk_Order_OrderID]    PRIMARY KEY CLUSTERED (OrderID);
+ALTER TABLE [dbo].[Order] ADD CONSTRAINT [fk_Order_CustomerID] FOREIGN KEY([CustomerID]) REFERENCES [dbo].[Customer] ([CustomerID]);
+ALTER TABLE [dbo].[Order] ADD CONSTRAINT [fk_Order_StatusID]   FOREIGN KEY([StatusID])   REFERENCES [dbo].[Status] ([StatusID]);
 
 GO
 INSERT INTO [dbo].[Order] (
