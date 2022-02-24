@@ -20,6 +20,11 @@
 :r $(path)\Data\IcingData.sql
 :r $(path)\Data\ShapeData.sql
 :r $(path)\Data\CakeData.sql
+:r $(path)\Data\LocationData.sql
+:r $(path)\Data\CustomerData.sql
+:r $(path)\Data\OrderData.sql
+:r $(path)\Data\DeliveryData.sql
+:r $(path)\Data\CartOrder.sql
 
 -- :r $(path)\Stored Procedures\ToBeAdded.sql
 -- :r $(path)\Views\ToBeAdded.sql

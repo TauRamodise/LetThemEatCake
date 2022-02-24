@@ -4,7 +4,7 @@ GO
 -- Create the table
 CREATE TABLE [dbo].[Customer]
 (
-    [CustomerID] [INT] NOT NULL,                        -- primary key column
+    [CustomerID] [INT] IDENTITY(1,1),                        -- primary key column
     [FullName] [VARCHAR](250) NOT NULL,   
     [PhoneNumber] [VARCHAR](31) NOT NULL,        
     [Email] [VARCHAR](250) NOT NULL,
