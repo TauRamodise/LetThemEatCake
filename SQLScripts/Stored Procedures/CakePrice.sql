@@ -6,4 +6,4 @@ AS
 	FROM vwCakesComboPrices
 	WHERE CakeID = @CakeID;
 
-DROP PROCEDURE  [dbo].[spGetCakePrice];
+--DROP PROCEDURE  [dbo].[spGetCakePrice];
