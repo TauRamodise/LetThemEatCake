@@ -1,5 +1,5 @@
 -- Create a new table called 'Customer' in schema 'LTECdb'
-USE [LTECdb]
+USE [LetThemEatCakeDB]
 GO
 -- Create the table
 CREATE TABLE [dbo].[Customer]
@@ -8,7 +8,10 @@ CREATE TABLE [dbo].[Customer]
     [FullName] [VARCHAR](250) NOT NULL,   
     [PhoneNumber] [VARCHAR](31) NOT NULL,        
     [Email] [VARCHAR](250) NOT NULL,
-    [DeliveryLocationID] [VARCHAR](250) NULL            -- foreign key column
+    [DeliveryLocationID] [INT] NULL,                   -- foreign key column
     [FavouriteCakeID] [INT] NULL                        -- foreign key column
 );
 GO
+
+ALTER TABLE [dbo].[Customer] ADD CONSTRAINT [PK_CustomerID] PRIMARY KEY CLUSTERED ([CustomerID] ASC);
+
