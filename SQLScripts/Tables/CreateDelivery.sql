@@ -16,3 +16,12 @@ ALTER TABLE [dbo].[Delivery] ADD CONSTRAINT [fk_Delivery_OrderID]            FOR
 ALTER TABLE [dbo].[Delivery] ADD CONSTRAINT [fk_Delivery_DeliveryLocationID] FOREIGN KEY([DeliveryLocationID]) REFERENCES [dbo].[Customer] ([DeliveryLocationID]);
 ALTER TABLE [dbo].[Delivery] ADD CONSTRAINT [fk_Delivery_StatusID]           FOREIGN KEY([StatusID])           REFERENCES [dbo].[Status] ([StatusID]);
 GO
+
+GO
+INSERT INTO [dbo].[Delivery] (
+    [DeliveryLocationID],[StatusID],[DeliveryNote]
+)
+VALUES (1, 7, ''),
+	(2, 7, 'Nice old lady'),
+	(3, 7, '')
+GO
