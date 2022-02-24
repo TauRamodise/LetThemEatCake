@@ -12,12 +12,21 @@ INSERT INTO [dbo].[Status] (
 VALUES ('Processing request'),
 	('Preparing Order'),
 	('Order ready'),
-	('Shipped'),
+	('Delivering'),
 	('Pick up ready'),
 	('Picked up'),
 	('Delivered'),
 	('Unable to deliver'),
 	('Cancelled order');
+GO
+
+INSERT INTO [dbo].[Status] (
+	[StatusName]
+)
+VALUES ('Processing'),
+	('Picked up'),
+	('Delivered'),
+	('Cancelled');
 GO
 
 --SELECT * FROM dbo.Status;
