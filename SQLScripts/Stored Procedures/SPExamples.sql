@@ -1,5 +1,3 @@
-EXEC [dbo].[spGetCakePrice] @CakeID = 1;
+EXEC [dbo].[spGetCartItems] @OrderID = 6
 GO
 
-EXEC [dbo].[spGetCakeCombo] @CakeID = 1;
-GO
