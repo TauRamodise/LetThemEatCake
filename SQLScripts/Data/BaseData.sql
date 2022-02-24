@@ -1,7 +1,7 @@
 INSERT INTO [dbo].[Base] (
     [BaseName], [BasePrice]
 )
-VALUES VALUES ('Caramel Fudge Sponge Cake', 150),
+VALUES ('Caramel Fudge Sponge Cake', 150),
     ('Creamy Sponge Cake', 100),
     ('Chocolate Sponge Cake', 100),
     ('Red velvet Sponge Cake', 250),
