@@ -19,6 +19,6 @@ VALUES ('Caramel Fudge Sponge Cake', 150),
     ('Devils Dark Chocolate Sponge Cake', 225),
     ('Rainbow Cake', 200),
     ('Angel Cake', 150),
-    ('Chiffon Cake' 250),
+    ('Chiffon Cake', 250),
     ('Chocolate Orange Cake', 200)
 GO

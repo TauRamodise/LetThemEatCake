@@ -11,5 +11,4 @@ CREATE TABLE [dbo].[Cart]
 );
 GO
 ALTER TABLE [dbo].[Cart] ADD CONSTRAINT [pk_Cart_OrderID] PRIMARY KEY CLUSTERED ([OrderID],[CakeID]);
-
 GO
