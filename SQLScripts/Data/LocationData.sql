@@ -1,7 +1,6 @@
 INSERT INTO [dbo].[Location](                   
     [Coordinates]
 )
-[16:45] Wessel Scholtz
 VALUES (
     geography::Point(-26.207032, 27.918984, 4326 ),
     geography::Point(-26.111193, 28.102838, 4326 ),
@@ -24,4 +23,3 @@ VALUES (
     geography::Point(-26.124629, 28.021330, 4326 )
     );
 GO    
-           
