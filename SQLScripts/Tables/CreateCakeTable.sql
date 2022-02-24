@@ -32,7 +32,7 @@ VALUES ('Custom Cake', 'This cake is made to your specifications based on a cons
 	('Orange Chiffon Cake', 'Round chiffon orange-flavoured cake topped with orange-flavoured buttercream icing and orange slices.', 4, 2, 3, 2),
 	('Orange Chocolate Cake', 'Round chocolate and orange flavoured cake topped with chocolate ganache icing and orange chocolate slices.', 4, 2, 3, 2),
 	('Classic Carrot Cake', 'Round carrot cake topped with cream cheese icing and chopped pecan nuts.', 4, 2, 3, 2),
-	('Christmas Cake', 'Round fruit cake topped with white fondant and cherries.', 4, 2, 3, 2),;
+	('Christmas Cake', 'Round fruit cake topped with white fondant and cherries.', 4, 2, 3, 2)
 GO
 
 --SELECT * FROM dbo.Cake;
