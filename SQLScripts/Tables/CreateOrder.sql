@@ -14,4 +14,3 @@ CREATE TABLE [dbo].[Order]
 GO
 ALTER TABLE [dbo].[Order] ADD CONSTRAINT [pk_Order_OrderID] PRIMARY KEY CLUSTERED (OrderID);
 
-GO

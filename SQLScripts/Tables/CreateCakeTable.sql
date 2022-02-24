@@ -12,7 +12,6 @@ CREATE TABLE [dbo].[Cake](
 );
 
 
-
 --SELECT * FROM dbo.Cake;
 --GO
 

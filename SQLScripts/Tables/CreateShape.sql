@@ -7,9 +7,8 @@ CREATE TABLE [dbo].[Shape](
     [ShapePrice] [smallmoney] NOT NULL,
     CONSTRAINT PK_Shape PRIMARY KEY (ShapeID)
 );
-GO
 
-
+/*
 CREATE PROCEDURE [dbo].[InsertUpdateDeleteShape]
 @ShapeName [varchar](250),
 @ShapePrice [smallmoney],
@@ -40,3 +39,5 @@ AS
     --         WHERE  id = @id
     --     END
   END
+
+*/
