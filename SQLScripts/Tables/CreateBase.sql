@@ -37,3 +37,5 @@ VALUES ('Caramel Fudge Sponge Cake', '150'),
        ('Banana Caramel Sponge Cake', '220'),
        ('Raspberry Almond Sponge Cake', '180'),
        ('Devils Dark Chocolate Sponge Cake', '225');
+
+GO

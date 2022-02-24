@@ -4,7 +4,7 @@ GO
 -- Create the  table
 CREATE TABLE [dbo].[Location]
 (
-    [LocationID] [INT] NOT NULL,                    -- primary key column
+    [LocationID] [INT] IDENTITY(1,1) NOT NULL,                    -- primary key column
     [Coordinates] [GEOGRAPHY] NOT NULL
 );
 GO
