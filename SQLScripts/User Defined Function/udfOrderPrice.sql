@@ -1,3 +1,4 @@
+GO
 USE [LetThemEatCakeDB]
 GO
 DROP FUNCTION IF EXISTS [udfOrderPrice];

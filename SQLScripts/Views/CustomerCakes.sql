@@ -1,7 +1,9 @@
-USE LetThemEatCakeDB;
 GO
-
-CREATE VIEW  vwGetCustomerCakes 
+USE LetThemEatCakeDB
+GO
+DROP VIEW IF EXISTS vwGetCustomerCakes
+GO
+CREATE VIEW vwGetCustomerCakes 
 AS
 SELECT
 	cust.FullName, 

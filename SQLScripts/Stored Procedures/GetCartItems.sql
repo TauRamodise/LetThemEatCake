@@ -1,3 +1,6 @@
+GO
+USE [LetThemEatCakeDB]
+GO
 CREATE PROCEDURE [dbo].[spGetCartItems]
 @OrderID int
 AS

@@ -1,9 +1,10 @@
-USE LetThemEatCakeDB;
+GO
+USE [LetThemEatCakeDB]
 GO
 
 CREATE PROCEDURE [dbo].[InsertNewTopping]
 @ToppingName [varchar](250),
-@ToppingPrice [smallmoney],
+@ToppingPrice [smallmoney]
 AS
   BEGIN
     INSERT INTO Topping
