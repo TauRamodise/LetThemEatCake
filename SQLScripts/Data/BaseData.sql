@@ -16,6 +16,9 @@ VALUES ('Caramel Fudge Sponge Cake', 150),
     ('Blueberry Sponge Cake', 200),
     ('Banana Caramel Sponge Cake', 220),
     ('Raspberry Almond Sponge Cake', 180),
-    ('Devils Dark Chocolate Sponge Cake', 225);
-
+    ('Devils Dark Chocolate Sponge Cake', 225),
+    ('Rainbow Cake', 200),
+    ('Angel Cake', 150),
+    ('Chiffon Cake', 250),
+    ('Chocolate Orange Cake', 200)
 GO
